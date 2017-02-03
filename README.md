@@ -9,11 +9,12 @@ the [manual](https://help.github.com/articles/creating-releases/) process.
 ## Contents
 
 * [Obtaining](#obtaining)
-  - [Use as a Clojure Library](#use as a clojure library)
 * [Usage](#usage)
   - [Changelog](#changelog)
 * [Building](#building)
-  - [Changelog](#changelog)
+* [Use as a Clojure Library](#use-as-a-clojure-library)
+  - [Obtaining](#obtaining)
+* [Changelog](#changelog)
 * [Documentation](#documentation)
 * [License](#license)
 
@@ -22,14 +23,6 @@ the [manual](https://help.github.com/articles/creating-releases/) process.
 
 The latest release binaries are
 available [here](https://github.com/plandes/clj-ghrelease/releases/latest).
-
-
-### Use as a Clojure Library
-
-In your `project.clj` file, add:
-
-[![Clojars Project](https://clojars.org/com.zensols.tools/ghrelease/latest-version.svg)](https://clojars.org/com.zensols.tools/ghrelease/)
-
 
 ## Usage
 
@@ -78,14 +71,28 @@ mkdir ../clj-zenbuild && wget -O - https://api.github.com/repos/plandes/clj-zenb
   maven repo.
 
 
+## Use as a Clojure Library
+
+This software is written in Clojure and can be used in your own Clojure (or
+Java) program.  For example, you could create
+a [Leiningen plugin](https://nakkaya.com/2010/02/25/writing-leiningen-plugins-101/).
+
+
+### Obtaining
+
+In your `project.clj` file, add:
+
+[![Clojars Project](https://clojars.org/com.zensols.tools/ghrelease/latest-version.svg)](https://clojars.org/com.zensols.tools/ghrelease/)
+
+
+### Documentation
+
+API [documentation](https://plandes.github.io/clj-ghrelease/codox/index.html).
+
+
 ## Changelog
 
 An extensive changelog for *this* package is available [here](CHANGELOG.md).
-
-
-## Documentation
-
-API [documentation](https://plandes.github.io/clj-ghrelease/codox/index.html).
 
 
 ## License
