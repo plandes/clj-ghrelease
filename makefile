@@ -3,7 +3,7 @@
 REL_DIST ?=	$(REL_ZIP) $(REL_BZ2)
 
 # location of the http://github.com/plandes/clj-zenbuild cloned directory
-ZBHOME=		../clj-zenbuild
+ZBHOME ?=	../clj-zenbuild
 
 all:		info
 

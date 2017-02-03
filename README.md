@@ -1,5 +1,10 @@
 # GitHub Automated Releases
 
+[![Travis CI Build Status][travis-badge]][travis-link]
+
+  [travis-link]: https://travis-ci.org/plandes/clj-ghrelease
+  [travis-badge]: https://travis-ci.org/plandes/clj-ghrelease.svg?branch=master
+
 Create and upload distribution binaries as
 a [GitHub release](https://help.github.com/articles/about-releases/).  This
 software is meant to replace
